@@ -1,0 +1,28 @@
+:root {
+    --primary: #6f927b;
+    --yellow: #f5db6f;
+    --red: #e2625c;
+    --tan: #f0ece5;
+    --white: #ffffff;
+  
+    --font-body: 'Inter', sans-serif;
+    --font-heading: 'Roboto Condensed', sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    font-family: var(--font-body);
+    background-color: var(--tan);
+    color: #111;
+  }
+  
+  input, button {
+    font-family: var(--font-body);
+    font-size: 1rem;
+  }
+  
+  h1, h2, h3 {
+    font-family: var(--font-heading);
+    font-weight: bold;
+  }
+  
